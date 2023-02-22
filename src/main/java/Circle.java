@@ -3,6 +3,7 @@ public class Circle extends GeometricObject {
 
     //datafield radius
     private double radius;
+    private double sup;
 
     //arg and no arg constructors
     public Circle() {
@@ -10,6 +11,7 @@ public class Circle extends GeometricObject {
 
     public Circle(double radius) {
         this.radius = radius;
+        this.sup = sup;
     }
     
     // Return radius 
